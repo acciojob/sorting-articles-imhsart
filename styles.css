@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	background-image: url('https://wallpaperbat.com/img/1506802-pixground.jpg');
+	background-position: center;
+	background-fit: cover;
+}
+ul{
+	list-style-type: square;
+	margin-inline: auto;
+	width: 400px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+li{
+	background-color:white;
+	border-block-end: 2px solid lightgrey;
+	padding: 15px;
+	list-style-position: inside;
+	font-size: 1.3rem;
+	
+}
